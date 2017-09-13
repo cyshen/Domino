@@ -1,0 +1,95 @@
+.options {
+    -fx-text-fill: white;
+    -fx-font-size:20px;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+    -fx-padding: 20px;
+    -fx-pref-width:350px;
+    -fx-background-color:rgb(171,153,126);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.options:hover{
+    -fx-background-color:rgb(131,113,86);
+}
+#message {
+    -fx-font-size:20px;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-padding: 20px;
+    -fx-pref-width:350px;
+    -fx-pref-height:50px;
+    -fx-background-color:rgb(245,235,233);
+}
+#userCards {
+    -fx-font-size:30px;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-padding: 20px;
+    -fx-pref-width:100px;
+    -fx-pref-height:100px;
+    -fx-background-color:rgb(254,147,140);
+    -fx-background-radius:10px;
+}
+#computerCards {
+    -fx-font-size:30px;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-padding: 20px;
+    -fx-pref-width:100px;
+    -fx-pref-height:100px;
+    -fx-background-color:rgb(66,129,164);
+    -fx-background-radius:10px;
+}
+
+.hand {
+    -fx-text-fill: white;
+    -fx-font-size:10px;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-pref-width:50px;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.hand1 {
+    -fx-background-color:rgba(178,200,198,1);
+}
+.hand1:hover{
+     -fx-background-color:rgba(148,170,168,1);
+ }
+.hand2 {
+    -fx-background-color:rgba(214,204,188,1);
+}
+.hand2:hover {
+    -fx-background-color:rgba(184,174,158,1);
+}
+.board {
+    -fx-font-size:10px;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+    -fx-pref-width:50px;
+    -fx-pref-height:50px;
+    -fx-background-color:rgba(242,243,242,1);
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+}
+.board:hover{
+   -fx-background-color:rgba(219,239,231,1);
+}
+#title{
+    -fx-text-fill: white;
+    -fx-font-size: 50px;
+    -fx-alignment: center;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-padding:20px;
+
+}
+.gap{
+    -fx-padding:100 0 0 0;
+}
