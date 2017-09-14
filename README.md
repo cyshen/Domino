@@ -15,10 +15,9 @@
   - **Boneyard**: Contains a list of dominos which are free to take, and functions to remove/add/display domino.
   - **Player**: Contain a list of dominos the player has, and functions to remove/add/display domino.
   - **Domino**: A class for a single domino. 
-- Flow Chart
 
 ### Debugging tool
-- Set `public static final boolean DEBUG_MODE = true;` to true to turn on debug mode. And the console window will shows the cell coordinate you clicked on and computer's dominos left.
+- Set `public static final boolean DEBUG_MODE = true;` to true to turn on debug mode. And the console window will show the cell coordinate you clicked on and computer's dominos left.
 
 
   
